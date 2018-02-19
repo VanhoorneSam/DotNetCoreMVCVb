@@ -8,9 +8,25 @@ namespace DotNetCoreMVCVb.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index(string name)
+        private string[] groenten = { "Rode Kool", "Spruitjes", "Broccoli", "Wortel", "Spinazie", "Bloemkool" };
+
+        public ViewResult Index(string name)
         {
-            return $"Hello darkness my old friend, {name}";
+            ViewBag.Groet = DateTime.Now.Hour < 12? "Goeiemorgen" : "Goedeavond";
+            return View();
+        }
+
+        public ViewResult Groenten(string zoekGroente)
+        {
+            ViewBag.Groenten = groenten;
+            if (!string.IsNullOrEmpty(zoekGroente))
+            {
+                ViewBag.Zoekresultaat = $"de gezochte groente is " +
+                 $"de {Array.IndexOf(groenten, zoekGroente)+1}e uit de lijst";
+            }
+
+            return View();
         }
     }
+
 }
