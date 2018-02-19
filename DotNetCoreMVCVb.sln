@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreMVCVb", "DotNetCoreMVCVb\DotNetCoreMVCVb.csproj", "{94F4BB39-C011-4EB7-B2DF-66F4A65E8D79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHowest", "MyHowest\MyHowest.csproj", "{300A9A1C-2CBB-42FE-B454-2B692D03F012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{94F4BB39-C011-4EB7-B2DF-66F4A65E8D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94F4BB39-C011-4EB7-B2DF-66F4A65E8D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94F4BB39-C011-4EB7-B2DF-66F4A65E8D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300A9A1C-2CBB-42FE-B454-2B692D03F012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300A9A1C-2CBB-42FE-B454-2B692D03F012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300A9A1C-2CBB-42FE-B454-2B692D03F012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300A9A1C-2CBB-42FE-B454-2B692D03F012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
